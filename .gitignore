@@ -1,0 +1,6 @@
+openai_key.py
+__pycache__
+build
+dist
+description_generator.egg-info
+setup.py
