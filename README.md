@@ -7,7 +7,10 @@ This application uses GPT-3 to generate personal descriptions for users using th
 To use the application, you will need to install the required dependencies and obtain an API key for GPT-3.
 
 ```python
-description = description_generator("octocat")
+from description_generator import description_generator
+key="openai api key"
+
+description = description_generator(key,"octocat")
 ```
 
 | Input   | Output                                                                                                                                                                                                                                                                                        |
